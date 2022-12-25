@@ -1,0 +1,13 @@
+.task h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.task h3 fa-icon {
+  cursor: pointer;
+}
+/*# sourceMappingURL=task-item.component.css.map */

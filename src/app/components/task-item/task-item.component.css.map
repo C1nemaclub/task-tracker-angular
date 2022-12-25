@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACE,KADG,CACH,EAAE,CAAC;EACD,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;CAI/B;;AAPH,AAII,KAJC,CACH,EAAE,CAGA,OAAO,CAAC;EACN,MAAM,EAAE,OAAO;CAChB",
+    "sources": [
+        "task-item.component.scss"
+    ],
+    "names": [],
+    "file": "task-item.component.css"
+}
