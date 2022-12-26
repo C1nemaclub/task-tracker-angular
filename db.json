@@ -17,6 +17,18 @@
       "text": "Food Shopping",
       "day": "May 7th at 12:30pm",
       "reminder": false
+    },
+    {
+      "text": "Wash dishes",
+      "day": "Now!",
+      "reminder": false,
+      "id": 4
+    },
+    {
+      "text": "Change Bike Oil",
+      "day": "Tomorrow",
+      "reminder": true,
+      "id": 5
     }
   ]
 }

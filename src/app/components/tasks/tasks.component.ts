@@ -21,5 +21,17 @@ export class TasksComponent {
       this.tasks = this.tasks.filter((t) => t.id !== task.id);
     });
   }
-  //Video 1:12:12
+
+  toggleReminder(task: Task) {
+    task.reminder = !task.reminder;
+    this.taskService.updateTaskReminder(task).subscribe();
+  }
+
+  addTask(task: Task) {
+    this.taskService.addTask(task).subscribe((task) => {
+      this.tasks.push(task);
+    });
+  }
+
+  //Video 1:21:08
 }

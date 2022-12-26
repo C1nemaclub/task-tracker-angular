@@ -1,3 +1,8 @@
+.task {
+  position: relative;
+  cursor: pointer;
+}
+
 .task h3 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -9,5 +14,17 @@
 
 .task h3 fa-icon {
   cursor: pointer;
+}
+
+.reminder::after {
+  position: absolute;
+  top: 50%;
+  left: -2%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  content: "";
+  width: 4px;
+  height: 90%;
+  background-color: green;
 }
 /*# sourceMappingURL=task-item.component.css.map */
